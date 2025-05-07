@@ -1,0 +1,27 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "\"# TailwindCSS_Tur\"",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "start:dev": "live-server public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JiyeonVui/TailwindCSS_Tur.git"
+  },
+  "keywords": [],
+  "author": "ManhNguyenDev",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JiyeonVui/TailwindCSS_Tur/issues"
+  },
+  "homepage": "https://github.com/JiyeonVui/TailwindCSS_Tur#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {}
+}
