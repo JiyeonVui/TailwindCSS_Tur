@@ -593,6 +593,15 @@ video {
   margin-right: auto;
 }
 
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .mb-24 {
   margin-bottom: 6rem;
 }
@@ -638,28 +647,20 @@ video {
   height: 1.5rem;
 }
 
-.h-\[530px\] {
-  height: 530px;
-}
-
-.h-\[540px\] {
-  height: 540px;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.h-\[\] {
-  height: ;
-}
-
-.h-\[440px\] {
-  height: 440px;
+.h-\[380px\] {
+  height: 380px;
 }
 
 .h-\[400px\] {
   height: 400px;
+}
+
+.h-\[530px\] {
+  height: 530px;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-11\/12 {
@@ -670,8 +671,8 @@ video {
   width: 100px;
 }
 
-.w-\[65\%\] {
-  width: 65%;
+.w-\[95\%\] {
+  width: 95%;
 }
 
 .w-full {
@@ -681,18 +682,6 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[95\] {
-  width: 95;
-}
-
-.w-\[95\%\] {
-  width: 95%;
 }
 
 .max-w-screen-2xl {
@@ -724,10 +713,6 @@ video {
   cursor: pointer;
 }
 
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -750,10 +735,6 @@ video {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.gap-4 {
-  gap: 1rem;
 }
 
 .gap-8 {
@@ -794,6 +775,106 @@ video {
 
 .bg-\[url\(\'\.\/Images\/mug_2\.jpg\'\)\] {
   background-image: url('./Images/mug_2.jpg');
+}
+
+.bg-\[url\(\'\.\/Images\/re\'\)\] {
+  background-image: url('./Images/re');
+}
+
+.bg-\[url\(\'\.\/Images\/red_love_cup\.\'\)\] {
+  background-image: url('./Images/red_love_cup.');
+}
+
+.bg-\[url\(\'\.\/Images\/red_love_cup\.jpg\'\)\] {
+  background-image: url('./Images/red_love_cup.jpg');
+}
+
+.bg-\[url\(\'\.\/Images\/\'\)\] {
+  background-image: url('./Images/');
+}
+
+.bg-\[url\(\'\.\/Images\/black\'\)\] {
+  background-image: url('./Images/black');
+}
+
+.bg-\[url\(\'\.\/Images\/black_tea_cup\.jpg\'\)\] {
+  background-image: url('./Images/black_tea_cup.jpg');
+}
+
+.bg-\[url\(\'\.\/Images\/B\'\)\] {
+  background-image: url('./Images/B');
+}
+
+.bg-\[url\(\'\.\/Images\/B\&W\'\)\] {
+  background-image: url('./Images/B&W');
+}
+
+.bg-\[url\(\'\.\/Images\/B\&W_\'\)\] {
+  background-image: url('./Images/B&W_');
+}
+
+.bg-\[url\(\'\.\/Images\/B\&W_Ess\'\)\] {
+  background-image: url('./Images/B&W_Ess');
+}
+
+.bg-\[url\(\'\.\/Images\/B\&W_Essent\'\)\] {
+  background-image: url('./Images/B&W_Essent');
+}
+
+.bg-\[url\(\'\.\/Images\/B\&W_Essen\'\)\] {
+  background-image: url('./Images/B&W_Essen');
+}
+
+.bg-\[url\(\'\.\/Images\/BW_Essen\'\)\] {
+  background-image: url('./Images/BW_Essen');
+}
+
+.bg-\[url\(\'\.\/Images\/BW_Essentials_Mug\'\)\] {
+  background-image: url('./Images/BW_Essentials_Mug');
+}
+
+.bg-\[url\(\'\.\/Images\/BW_Essentials_Mug\.jpg\'\)\] {
+  background-image: url('./Images/BW_Essentials_Mug.jpg');
+}
+
+.bg-\[url\(\'\.\/Images\/Winter\'\)\] {
+  background-image: url('./Images/Winter');
+}
+
+.bg-\[url\(\'\.\/Images\/Winter_style\.mug\.jpg\'\)\] {
+  background-image: url('./Images/Winter_style.mug.jpg');
+}
+
+.bg-\[url\(\'\.\/Images\/C\'\)\] {
+  background-image: url('./Images/C');
+}
+
+.bg-\[url\(\'\.\/Images\/Ceramic\'\)\] {
+  background-image: url('./Images/Ceramic');
+}
+
+.bg-\[url\(\'\.\/Images\/Ceramic_tea\.jpg\'\)\] {
+  background-image: url('./Images/Ceramic_tea.jpg');
+}
+
+.bg-\[url\(\'\.\/Images\/\.jpg\'\)\] {
+  background-image: url('./Images/.jpg');
+}
+
+.bg-\[url\(\'\.\/Images\/No_handle_bar_cup\.jpg\'\)\] {
+  background-image: url('./Images/No_handle_bar_cup.jpg');
+}
+
+.bg-\[url\(\'\.\/Images\/Winter_style_mug\.jpg\'\)\] {
+  background-image: url('./Images/Winter_style_mug.jpg');
+}
+
+.bg-\[url\(\'\.\/Images\/Espresso_Cup_by_Mugs\.jpg\'\)\] {
+  background-image: url('./Images/Espresso_Cup_by_Mugs.jpg');
+}
+
+.bg-\[url\(\'\.\/Images\/Summer_Designer_Cup\.jpg\'\)\] {
+  background-image: url('./Images/Summer_Designer_Cup.jpg');
 }
 
 .bg-cover {
@@ -1121,6 +1202,14 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:gap-4 {
+    gap: 1rem;
+  }
+
   .md\:px-32 {
     padding-left: 8rem;
     padding-right: 8rem;
@@ -1148,6 +1237,10 @@ video {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .lg\:items-center {
     align-items: center;
   }
@@ -1156,12 +1249,12 @@ video {
     justify-content: flex-start;
   }
 
-  .lg\:gap-8 {
-    gap: 2rem;
-  }
-
   .lg\:gap-4 {
     gap: 1rem;
+  }
+
+  .lg\:gap-8 {
+    gap: 2rem;
   }
 
   .lg\:px-64 {
